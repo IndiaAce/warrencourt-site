@@ -1,0 +1,19 @@
+html,body {
+    height:100%;
+    margin:0;
+    background:#f7efdf;
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color:#0a1a2e;           /* matches the dark navy in the logo */
+  }
+  main {
+    min-height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:1rem;
+  }
+  img{max-width:320px;width:80%;height:auto}
+  h1{font-size:clamp(1.25rem,2.5vw,2rem);font-weight:500;margin:0}
+  .coming{font-size:1rem;letter-spacing:0.1em;margin:0}
